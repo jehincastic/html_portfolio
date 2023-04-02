@@ -139,7 +139,6 @@ footer {
 
 .footerText {
 	margin-bottom: 1rem;
-	transition-property: background-color, border-color, color, fill, stroke;
 	color: #6B7280;
 	font-size: 0.875rem;
 	line-height: 1.25rem;
@@ -150,6 +149,7 @@ footer {
 	color: #1F2937;
 }
 
+/* Device width less than or equal to 640px */
 @media (max-width: 640px) {
 	.logoSmall {
 		display: block;
@@ -165,6 +165,7 @@ footer {
 	}
 }
 
+/* Device width greater than or equal to 640px */
 @media (min-width: 640px) {
 	.mainContainer {
 		padding-left: 4rem;
@@ -186,6 +187,7 @@ footer {
 	}
 }
 
+/* Device width greater than or equal to 768px */
 @media (min-width: 768px) {
 	.mainContainer {
 		padding-left: 9rem;
@@ -198,6 +200,7 @@ footer {
 	}
 }
 
+/* Device width greater than or equal to 1024px */
 @media (min-width: 1024px) {
 	.mainContainer {
 		padding-left: 13rem;
@@ -224,6 +227,7 @@ footer {
 
 }
 
+/* Device width greater than or equal to 1280px */
 @media (min-width: 1280px) {
 	.mainContainer {
 		padding-left: 20rem;
