@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
 
+/* 1rem = 16px */
+
 body {
 	background-color: #ffffff;
 	font-family: roboto;
@@ -62,6 +64,7 @@ nav {
 }
 
 .contianer {
+	min-height: 80vh;
 	padding-bottom: 56px;
 	background-color: #F3F4F6;
 }
@@ -202,7 +205,7 @@ footer {
 	}
 
 	.subContainer {
-		margin-top: 8rem;
+		margin-top: 70px;
 	}
 
 	.mainHeading {
